@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source help_gar.sh
-source options_handler_gar.sh
+source help.sh
+source options_handler.sh
 
 #Process temp directory
 temp_directory=$(mktemp -d)
